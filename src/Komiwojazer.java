@@ -24,7 +24,6 @@ public class Komiwojazer {
 		
 		Collections.sort(listaP, new CustomCompare());
 	
-		
 		B[1] = listaP.get(0).getDistance(listaP.get(1));
 		
 		for(int j=2; j<P; j++){

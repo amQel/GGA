@@ -27,7 +27,7 @@ public class KCentrum {
 		double[] distFromM = new double[M];
 		
 		int p = r.nextInt(M);
-		System.out.println("Pierwszy(losowo)" + p);
+		System.out.println("Pierwszy(losowo) " + p);
 		capM = capM.replaceAll(" " + p + " ", " ");
 		String w = "";
 		w += p + " ";
